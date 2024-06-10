@@ -1,4 +1,4 @@
-#!/bin/usr/env python3
+##!/bin/usr/env python3
 
 import argparse
 import xml.etree.ElementTree as et
@@ -13,8 +13,8 @@ banner = color(f"""
 
               ┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙
                       -Nmap Parse-
-        Extract relevant information from Nmap= scan 
-
+        Extract relevant information from Nmap scan 
+        
 """, "green")
 
 def parse_nmap_xml(file):
